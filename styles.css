@@ -1,0 +1,138 @@
+body{
+  background-color: #E1E5EA;
+  margin: 0;
+text-align: center;
+font-family: 'IBM Plex Mono', monospace;
+
+}
+
+h1{
+  margin-top: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #8E0505;
+}
+h2{
+  font-family: 'IBM Plex Mono', monospace;
+}
+h3{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+hr{
+  border: dotted grey 6px;
+  width: 3%;
+  border-bottom: none;
+  margin: 50px auto 50px auto;
+}
+
+.top-container{
+  background-color: #E1E5EA;
+}
+
+.parent1{
+  width: 100%;
+  margin: 50px auto 0 auto;
+  position: relative;
+}
+.parent2{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  position: relative;
+}
+
+.pylogo1{
+  position: relative;
+  margin: auto;
+  left: 0;
+  top: 65px;
+  width : 50%;
+}
+.img1{
+  position: relative;
+  right: 70px;
+}
+.pylogo2{
+  position: relative;
+  margin: auto;
+  left: 0;
+  bottom: 90px;
+  width: 50%;
+}
+.img2{
+  position: relative;
+  left: 70px;
+}
+.para{
+  position:relative;
+  bottom: 20px;
+  color: #519259;
+}
+.print1{
+  color: #4C0070;
+  display: inline;
+}
+.print2{
+  color: black;
+  display: inline;
+}
+.print3{
+  color: #519259;
+  display: inline;
+}
+.print4{
+  color: black;
+  display: inline;
+}
+.middle-container{
+  margin-top: 50px;
+}
+.comment-line{
+  color: grey;
+  width: 80%;
+  margin: auto;
+}
+
+.skill-row2{
+  margin-top: 70px;
+}
+
+.btn {
+  background: #1accb4;
+  background-image: -webkit-linear-gradient(top, #1accb4, #2980b9);
+  background-image: -moz-linear-gradient(top, #1accb4, #2980b9);
+  background-image: -ms-linear-gradient(top, #1accb4, #2980b9);
+  background-image: -o-linear-gradient(top, #1accb4, #2980b9);
+  background-image: linear-gradient(to bottom, #1accb4, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+.btn:hover {
+  background: #893cfc;
+  background-image: -webkit-linear-gradient(top, #893cfc, #03fcd2);
+  background-image: -moz-linear-gradient(top, #893cfc, #03fcd2);
+  background-image: -ms-linear-gradient(top, #893cfc, #03fcd2);
+  background-image: -o-linear-gradient(top, #893cfc, #03fcd2);
+  background-image: linear-gradient(to bottom, #893cfc, #03fcd2);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: darkgrey;
+  padding: 20px;
+  margin: 50px 0 0 0;
+}
+a{
+  text-decoration: none;
+  color: #3b5998;
+}
+a:hover{
+  color: white;
+}
